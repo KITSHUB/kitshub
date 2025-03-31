@@ -1,0 +1,77 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #111;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1em 2em;
+  border-bottom: 1px solid #ddd;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.cart {
+  cursor: pointer;
+}
+.hero {
+  background: #111 url('https://i.imgur.com/64U3kBt.jpg') no-repeat center/cover;
+  color: white;
+  padding: 4em 2em;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.btn-primary {
+  background: #ff4d00;
+  color: white;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+section {
+  padding: 2em;
+}
+.product-grid {
+  display: flex;
+  gap: 1.5em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product {
+  background: white;
+  padding: 1em;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
+footer {
+  text-align: center;
+  padding: 2em 1em;
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+footer .infos {
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
