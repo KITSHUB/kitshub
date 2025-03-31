@@ -5,16 +5,35 @@
   <meta charset="UTF-8">
   <title>PSG 2024 - Kitshub</title>
   <link rel="stylesheet" href="../styles.css">
+  <script defer src="../script.js"></script>
 </head>
 <body>
   <header>
     <h1>PSG 2024</h1>
+    <nav><a href="../clubs.html">⬅ Retour aux clubs</a> | <a href="../panier.html">🛒 Panier</a></nav>
   </header>
   <main>
     <img src="https://i.imgur.com/Yf1G0BL.png" alt="PSG 2024" class="product-img-large">
     <p><strong>Prix :</strong> 29.99€</p>
-    <p>Maillot officiel saison 2024, qualité premium, disponible en tailles S à XL.</p>
-    <a href="../clubs.html" class="btn-primary">⬅ Retour aux clubs</a>
+    <p>Maillot officiel 2024, qualité premium. Tailles S à XL.</p>
+    
+    <label for="taille">Taille :</label>
+    <select id="taille">
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+    </select>
+
+    <label for="quantite">Quantité :</label>
+    <input type="number" id="quantite" value="1" min="1" max="10">
+
+    <button onclick="addToCart('PSG 2024', 29.99)">Ajouter au panier</button>
+
+    <div class="upsell">
+      <h3>Tu pourrais aussi aimer :</h3>
+      <a href="real-2024.html">➡ Real Madrid 2024</a>
+    </div>
   </main>
 </body>
 </html>
