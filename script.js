@@ -22,6 +22,6 @@ function updateCartDisplay() {
 }
 
 function toggleCart() {
-  const section = document.getElementById("cart-section");
+  const section = document.getElementById("panier");
   section.style.display = section.style.display === "none" ? "block" : "none";
 }
