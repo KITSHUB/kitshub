@@ -1,1 +1,0 @@
-// JS pour panier et interactions
